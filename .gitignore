@@ -1,0 +1,12 @@
+*.csv
+*.tif
+*.png
+*.pdf
+*.bil
+*.hdr
+*.param
+*.driver
+*.txt
+/runinfo/*
+/lsdtt
+/.ipynb_checkpoints/*
