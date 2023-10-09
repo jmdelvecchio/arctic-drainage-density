@@ -1,5 +1,13 @@
 # Permafrost extent sets drainage density in the Arctic 
 
+## Update 10/09/2023
+
+A new release coincides with submitting revisions to PNAS! The repo now features a "Step 5" that calculates carbon stocks vulnerable to erosion with climate change. 
+
+Find the (un-revised) preprint [here](https://eartharxiv.org/repository/view/5340/). 
+
+# Summary
+
 This coding project is the culmination of many months of learning Python geospatial workflows, Google Earth Engine, and parallel computing as part of my postdoctoral fellowship at the [Neukom Institute for Computational Sciences](https://neukom.dartmouth.edu/) at Dartmouth College. I am pleased to share the workflow with you here! Note that while all the satellite and topographic datasets used here are freely available, they are most easily downloaded/computed with Google Earth Engine. The conversion from Earth Enging server-side function and local client-side Geopandas/Pandas conversion is only possible through the amazing [`geemap`](https://github.com/gee-community/geemap) package by Qiusheng Wu. The analysis of 10 m digital elevation models is only possible through the incredible [LSDTopoTools](https://lsdtopotools.github.io/) software project.
 
 I recommend two different environments to run these notebooks - I have a `gee` environment that is pretty much the included `environment.yml`. The second is a `lsdtopy` environment based on the [lsdtopytools](https://github.com/LSDtopotools/lsdtopytools) install instructions. 
